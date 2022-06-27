@@ -10,8 +10,12 @@ public class oneday {
     }
 
     public static void main(String[] args) {
-    test test = new test();     //调用test类的构造函数
-    test.funtest1();   //调用test类的funtest函数
+        test test = new test();     //调用test类的构造函数
+//    test.funtest1();   //调用test类的funtest函数
+
+//      test.funtest2();        //for增强版
+        //       test.funtest3();        //字符串操作
+               test.funtest4();        //读写
     }
 
 }
